@@ -2,7 +2,9 @@ import React from 'react'
 
 function Services() {
   return (
-    <div>Services</div>
+      <div className="md:!pt-15 sm:!pt-10">
+        Services
+      </div>
   )
 }
 

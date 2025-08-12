@@ -96,7 +96,7 @@ const Navbar = () => {
             <img
               src={Logo1}
               alt={`client-`}
-              className="w-[25%] h-[25%] "
+              // className="w-[25%] h-[20%] "
               onClick={() => window.location.href = "/"}
             />
           </div>
@@ -104,7 +104,7 @@ const Navbar = () => {
             <img
               src={Logo}
               alt={`client-`}
-              className="w-[15%] h-[15%] md:w-[25%] md:h-[25%] "
+              className="w-[25%] h-[25%] md:w-[25%] md:h-[25%] "
               onClick={() => window.location.href = "/"}
             />
           </div>

@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import contactus from "../assets/contactus.png";
 
 function Contactus() {
   return (
-    <div>Contactus</div>
-  )
+    <div className="md:!mt-18 !mt-15  ">
+      <div>
+        <img src={contactus} className="w-full" />
+      </div>
+    </div>
+  );
 }
 
-export default Contactus
+export default Contactus;
