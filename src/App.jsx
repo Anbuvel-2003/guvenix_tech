@@ -70,14 +70,14 @@ function App() {
         <Navbar />
       <div className="relative">
         <RouterProvider router={router} />
-        {/* <Footer /> */}
+        <Footer />
         {showTopBtn && (
           <div
             onClick={scrollToTop}
             className="fixed right-10 bottom-50 cursor-pointer !grid items-center transform -rotate-90 origin-bottom-right group z-50"
           >
-            <span className="text-xs text-[#8c8c8c] tracking-widest font-medium uppercase mb-2">
-              <span className="w-14 h-0.5 bg-[#8c8c8c] transition-all duration-500 group-hover:w-0 group-hover:opacity-0"></span>
+            <span className="text-xs text-[#194365] tracking-widest font-medium uppercase mb-2">
+              <span className="w-14 h-0.5 bg-[#fff] transition-all duration-500 group-hover:w-0 group-hover:opacity-0"></span>
               Back to Top
             </span>
           </div>
