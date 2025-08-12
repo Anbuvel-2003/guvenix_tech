@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function Aboutus() {
   return (
-    <div>Aboutus</div>
-  )
+    <div>
+      <div>Aboutus</div>
+    </div>
+  );
 }
 
-export default Aboutus
+export default Aboutus;
+    

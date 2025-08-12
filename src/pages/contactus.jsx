@@ -47,7 +47,7 @@ function Contactus() {
                 Tell Us more about your business idea to get consulted
               </h4>
             </div>
-            <div className="bg-[#F7F7F7] !p-10 rounded-[10px]">
+            <div className="bg-[#F7F7F7] !p-10 rounded-[10px]"> 
               <h3 className="text-center lg:text-[30px] md:text-[20px] text-[20px] text-[#1B75BB]">
                 Got questions to ask ?
               </h3>
