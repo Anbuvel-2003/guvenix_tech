@@ -7,14 +7,12 @@ import { LuBrainCircuit, LuCloudCog, LuMonitorCog } from "react-icons/lu";
 import { FaPencilRuler } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { TbBrandSpeedtest } from "react-icons/tb";
-
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const dropdownRef = useRef(null);
-
   // Handle scroll effect to hide navbar
   useEffect(() => {
     const handleScroll = () => {
@@ -30,7 +28,6 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
-
   // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -42,7 +39,6 @@ const Navbar = () => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-
   // Toggle dropdown menu
   const toggleDropdown = (index) => {
     // setActiveDropdown(activeDropdown == index ? null : index);
@@ -53,7 +49,6 @@ const Navbar = () => {
       setActiveDropdown(index);
     }
   };
-
   // Handle escape key to close dropdown
   useEffect(() => {
     const handleEscKey = (event) => {
@@ -65,7 +60,6 @@ const Navbar = () => {
     document.addEventListener("keydown", handleEscKey);
     return () => document.removeEventListener("keydown", handleEscKey);
   }, []);
-
   const navLinks = [
     {
       title: "Home",
@@ -82,7 +76,6 @@ const Navbar = () => {
     { title: "About Us", path: "/aboutUs" },
     { title: "Contact Us", path: "/contactUs" },
   ];
-
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 bg-transparent ${
@@ -213,5 +206,4 @@ const Navbar = () => {
     </nav>
   );
 };
-
 export default Navbar;
