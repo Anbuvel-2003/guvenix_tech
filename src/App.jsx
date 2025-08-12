@@ -70,7 +70,7 @@ function App() {
         <Navbar />
       <div className="relative">
         <RouterProvider router={router} />
-        {/* <Footer /> */}
+        <Footer />
         {showTopBtn && (
           <div
             onClick={scrollToTop}
