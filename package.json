@@ -13,7 +13,7 @@
     "@emailjs/browser": "^4.4.1",
     "@fontsource/manrope": "^5.2.6",
     "@tailwindcss/vite": "^4.1.11",
-    "antd": "^5.27.0",
+    "antd": "^5.27.3",
     "aos": "^2.3.4",
     "formik": "^2.4.6",
     "framer-motion": "^12.23.12",
