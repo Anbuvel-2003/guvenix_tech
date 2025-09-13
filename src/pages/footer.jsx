@@ -6,9 +6,9 @@
 
 // export default Footer;
 import React from "react";
-import logo from "../assets/2.png";
-import bg1 from "../assets/footer-bg1.png";
-import bg2 from "../assets/footer-bg2.png";
+import logo from "../assets/img/2.png";
+import bg1 from "../assets/img/footer-bg1.png";
+import bg2 from "../assets/img/footer-bg2.png";
 import { FaFacebookF, FaInstagram } from "react-icons/fa6";
 import { TbBrandLinkedin } from "react-icons/tb";
 import { MdLocationOn } from "react-icons/md";

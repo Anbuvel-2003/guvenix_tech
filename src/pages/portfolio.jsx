@@ -1,10 +1,10 @@
 "use client";
-import portfolio from "../assets/portfolio.png";
+import portfolio from "../assets/img/portfolio.png";
 import React, { useState, useRef } from "react";
 // import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
-import container from "../assets/container.png";
+import container from "../assets/img/container.png";
 
 function Portfolio() {
   const projectsData = [

@@ -1,9 +1,9 @@
 import React from 'react'
-import aboutus from '../assets/aboutus.png'
-import aboutus1 from '../assets/aboutus1.png'
-import aboutus2 from '../assets/aboutus2.png'
-import aboutus3 from '../assets/aboutus3.png'
-import Step from './components/steps'
+import aboutus from '../assets/img/aboutus.png'
+import aboutus1 from '../assets/img/aboutus1.png'
+import aboutus2 from '../assets/img/aboutus2.png'
+import aboutus3 from '../assets/img/aboutus3.png'
+import Step from '../assets/components/steps'
 
 function Aboutus() {
 
@@ -119,10 +119,11 @@ function Aboutus() {
                       {item.p1}
                     </p>
                     <div className="lg:text-[16px] md:text-[16px] text-[14px] lg:!py-6 !py-4">
-                      <p className="text-[#AD46FF] border-r-3 border-[#AD46FF] font-manrope">
+                      <p className="text-[#1B75BB] border-r-3 border-[#1B75BB] font-manrope">
                         {item.p2}
                       </p>
                     </div>
+                    
                   </div>
                 </div>
               );

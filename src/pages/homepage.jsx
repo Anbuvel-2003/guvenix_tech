@@ -1,5 +1,5 @@
 import React from "react";
-import Testimonial from "./components/testimonial";
+import Testimonial from "../assets/components/testimonial";
 
 function Homepage() {
   return (

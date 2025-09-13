@@ -1,5 +1,5 @@
 import React from "react";
-import contactus from "../assets/contactus.png";
+import contactus from "../assets/img/contactus.png";
 import { BsTelephoneOutbound } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";

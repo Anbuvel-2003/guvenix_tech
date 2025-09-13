@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
-import Logo from "../assets/2.png";
-import Logo1 from "../assets/1.png";
+import Logo from "../assets/img/2.png";
+import Logo1 from "../assets/img/1.png";
 import { CiMobile3, CiSettings } from "react-icons/ci";
 import { LuBrainCircuit, LuCloudCog, LuMonitorCog } from "react-icons/lu";
 import { FaPencilRuler } from "react-icons/fa";

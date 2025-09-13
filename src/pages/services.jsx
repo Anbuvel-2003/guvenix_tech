@@ -1,11 +1,11 @@
 import React from 'react'
-import banner from "../assets/servicesBanner.png"
-import img1 from "../assets/service-1.png";
-import img2 from "../assets/service-2.png";
-import img3 from "../assets/service-3.png";
-import img4 from "../assets/service-4.png";
-import img5 from "../assets/service-5.png";
-import img6 from "../assets/service-6.png";
+import banner from "../assets/img/servicesBanner.png"
+import img1 from "../assets/img/service-1.png";
+import img2 from "../assets/img/service-2.png";
+import img3 from "../assets/img/service-3.png";
+import img4 from "../assets/img/service-4.png";
+import img5 from "../assets/img/service-5.png";
+import img6 from "../assets/img/service-6.png";
 
 
 
@@ -51,7 +51,6 @@ const things = [
 function Services() {
   return (
       <div className="md:!pt-15 sm:!pt-10">
-          <img src={banner} className="w-full ] " />
 
               {/* what we do */}
 
