@@ -119,7 +119,7 @@ function Portfolio() {
         <img src={portfolio} className="w-screen h-auto" />
       </div>
       <section id="projects">
-        <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+        <div className="text-white flex flex-row justify-center items-center gap-2 !py-6">
           <ProjectTag
             onClick={handleTagChange}
             name="All"
@@ -151,6 +151,9 @@ function Portfolio() {
               transition={{ duration: 0.3, delay: index * 0.4 }}
             >
               <div className="relative !mb-10 cursor-pointer shadow-2xl rounded-2xl bg-[#1B75BB]">
+                <div className="!p-2 border-amber-50 absolute bg-white rounded-[10px] top-3 right-3 ">
+                  <h3 className="text-[#1B75BB] font-light text-[14px] capitalize">mobile</h3>
+                </div>
                 <img src={container} alt="rounded w-[100%] h-[100%]" />
                 <div className="bg-white lg:!p-10 md:!p-5 !p-3 absolute w-[80%] rounded-[10px] md:-bottom-10 -bottom-5 lg:!mx-10 md:!mx-5 !mx-7 shadow-2xl">
                   <h3 className="text-[#1B75BB] text-center">{project.title}</h3>
